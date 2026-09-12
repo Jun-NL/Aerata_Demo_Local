@@ -120,3 +120,6 @@ main { min-width: 0; min-height: 0; overflow: auto; }
 @media (max-width: 800px) { .shell { min-width: 640px; } .bento[data-expanded] { grid-template-columns: minmax(0,1fr) 230px; } .today:not([data-expanded]) { grid-template-columns: minmax(0,1fr) 280px; } .form-grid, .facts { grid-template-columns: 1fr; } .panel-heading { flex-wrap: wrap; } .admin-grid { grid-template-columns: 1fr; } }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; } }
 @media (forced-colors: active) { .panel, button, .button, .rail { border-color: CanvasText; } }
+
+.reviewer { margin-left: auto; min-height: 44px; display: inline-flex; align-items: center; padding: 8px 14px; border-radius: 8px; color: #fff; background: #272727; font-size: 14px; font-weight: 600; text-decoration: none; }
+.reviewer:hover { background: #111; }
