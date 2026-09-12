@@ -1,0 +1,23 @@
+{
+  "name": "aerata-demo-local",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Data-free Aerata desktop UI preview",
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 4375",
+    "build": "vite build --base=./",
+    "preview": "vite preview --host 127.0.0.1 --port 4375"
+  },
+  "dependencies": {
+    "@fontsource-variable/atkinson-hyperlegible-next": "5.3.0",
+    "react": "19.2.6",
+    "react-dom": "19.2.6"
+  },
+  "devDependencies": {
+    "vite": "8.3.0"
+  }
+}
